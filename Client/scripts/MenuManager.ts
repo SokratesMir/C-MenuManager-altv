@@ -331,7 +331,6 @@ alt.on('keyup', (e) => {
     if (menu !== null && exitEscapeMenu === true && e == 27) {
         exitEscapeMenu = false;
         menu.Visible = true;
-        alt.log("Hallo");
     }
 });
 
