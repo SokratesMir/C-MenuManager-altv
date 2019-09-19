@@ -1,6 +1,6 @@
-import Color from "NativeUIMenu/utils/Color.js";
-import Point from "NativeUIMenu/utils/Point.js";
-import IElement from "NativeUIMenu/modules/IElement.js";
+import Color from "../utils/Color.js";
+import Point from "../utils/Point.js";
+import IElement from "./IElement.js";
 import * as alt from 'alt';
 import * as game from 'natives';
 export default class Text extends IElement {

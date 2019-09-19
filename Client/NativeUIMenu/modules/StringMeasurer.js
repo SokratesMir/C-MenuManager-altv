@@ -1,5 +1,5 @@
-import { Screen } from "NativeUIMenu/utils/Screen.js";
-import ResText from "NativeUIMenu/modules/ResText.js";
+import { Screen } from "../utils/Screen.js";
+import ResText from "./ResText.js";
 
 import * as alt from 'alt';
 import * as game from 'natives';

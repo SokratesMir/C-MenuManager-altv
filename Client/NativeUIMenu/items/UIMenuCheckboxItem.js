@@ -1,9 +1,9 @@
-import Sprite from "NativeUIMenu/modules/Sprite.js";
-import Color from "NativeUIMenu/utils/Color.js";
-import LiteEvent from "NativeUIMenu/utils/LiteEvent.js";
-import Point from "NativeUIMenu/utils/Point.js";
-import Size from "NativeUIMenu/utils/Size.js";
-import UIMenuItem from "NativeUIMenu/items/UIMenuItem.js";
+import Sprite from "../modules/Sprite.js";
+import Color from "../utils/Color.js";
+import LiteEvent from "../utils/LiteEvent.js";
+import Point from "../utils/Point.js";
+import Size from "../utils/Size.js";
+import UIMenuItem from "./UIMenuItem.js";
 export default class UIMenuCheckboxItem extends UIMenuItem {
     constructor(text, check = false, description = "") {
         super(text, description);

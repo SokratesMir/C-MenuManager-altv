@@ -1,14 +1,14 @@
-import Font from "NativeUIMenu/enums/Font.js";
-import ItemsCollection from "NativeUIMenu/modules/ItemsCollection.js";
-import ListItem from "NativeUIMenu/modules/ListItem.js";
-import ResText, { Alignment } from "NativeUIMenu/modules/ResText.js";
-import Sprite from "NativeUIMenu/modules/Sprite.js";
-import Color from "NativeUIMenu/utils/Color.js";
-import LiteEvent from "NativeUIMenu/utils/LiteEvent.js";
-import Point from "NativeUIMenu/utils/Point.js";
-import Size from "NativeUIMenu/utils/Size.js";
-import StringMeasurer from "NativeUIMenu/modules/StringMeasurer.js";
-import UIMenuItem from "NativeUIMenu/items/UIMenuItem.js";
+import Font from "../enums/Font.js";
+import ItemsCollection from "../modules/ItemsCollection.js";
+import ListItem from "../modules/ListItem.js";
+import ResText, { Alignment } from "../modules/ResText.js";
+import Sprite from "../modules/Sprite.js";
+import Color from "../utils/Color.js";
+import LiteEvent from "../utils/LiteEvent.js";
+import Point from "../utils/Point.js";
+import Size from "../utils/Size.js";
+import StringMeasurer from "../modules/StringMeasurer.js";
+import UIMenuItem from "./UIMenuItem.js";
 export default class UIMenuListItem extends UIMenuItem {
     constructor(text, description = "", collection = new ItemsCollection([]), startIndex = 0) {
         super(text, description);
