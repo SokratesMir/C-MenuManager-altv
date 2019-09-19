@@ -279,7 +279,7 @@ export default class NativeUI {
             (mouseY > topLeft.Y && mouseY < topLeft.Y + boxSize.Height));
     }
     IsMouseInListItemArrows(item, topLeft, safezone) {
-        game.beginTextCommandWidth("jamyfafi");
+        game.beginTextCommandGetWidth("jamyfafi");
         game.addTextComponentSubstringPlayerName(item.Text);
         var res = this.GetScreenResolutionMantainRatio();
         var screenw = res.Width;
